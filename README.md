@@ -1,2 +1,2 @@
 # subtitle
-Used to store custom-made subtitles corresponding to videos from various video platforms.
+用于存放各视频站中视频的对应自制字幕
