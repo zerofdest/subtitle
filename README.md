@@ -1,7 +1,7 @@
 # subtitle
 用於存放各影片站中影片的對應自製字幕\
 包括烤肉、歌詞翻譯等\
-由於個人日語能力與時間所限，翻譯均採用GPT的長thinking加上一定優化的prompt，姑且還是會看過一遍看有沒有問題。不過現在的thinking翻譯都很強了
+由於個人日語能力與時間精力所限，翻譯均採用GPT的長thinking加上一定優化的prompt，姑且還是會看過一遍看有沒有問題。不過現在的thinking翻譯都很強了
 
 分為兩類 完成與未完成
 ## 完成
@@ -9,7 +9,7 @@
 ```text
 ├── LYgoPrD_ads.ja+zh-TW.ass                      # 字幕文件，前面那一串是yt的影片id，ja+zh-TW是語言說明
 ├── font.md                                       # 字幕中用到的字體，為避免版權問題會僅使用開源字體
-├── info.json                                     # 來自yt-dlp的--write-info-json
+├── info.json                                     # 來自yt-dlp/yt-dlp的--write-info-json
 └── 群青 Love theory (special ver.).ja+zh-TW.txt  # 未對軸的文本
 ```
 完成的話 字幕與文本都有翻譯 因此可隨意選擇
