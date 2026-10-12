@@ -5,7 +5,7 @@
 
 分為兩類 完成與未完成
 ## 完成
-比如
+比如\
 ├── LYgoPrD_ads.ja+zh-TW.ass                      # 字幕文件，前面那一串是yt的影片id，ja+zh-TW是語言說明
 ├── font.md                                       # 字幕中用到的字體，為避免版權問題會僅使用開源字體
 ├── info.json                                     # 來自yt-dlp的--write-info-json
