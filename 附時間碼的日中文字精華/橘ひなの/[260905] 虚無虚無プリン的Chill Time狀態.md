@@ -1,5 +1,5 @@
-https://www.youtube.com/watch?v=_IY8xsvkPf8
-## 虚無虚無プリン的狀態
+[なつがおわりましたね](https://www.youtube.com/watch?v=_IY8xsvkPf8)
+## 虚無虚無プリン的Chill Time狀態
 0:47:48-0:55:45
 ### 43. 最近突然進入 Chill Time
 
