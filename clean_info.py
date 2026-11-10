@@ -8,7 +8,7 @@ import re
 import tempfile
 from pathlib import Path
 
-FOLDER = Path(r"H:\yt-dlp\output\NA")
+FOLDER = Path(__file__).resolve().parent
 IP_FIELDS = {
     "ip", "ip_address", "ipaddr", "ipv4", "ipv6", "ipv4_address",
     "ipv6_address", "client_ip", "remote_ip", "public_ip", "local_ip",
@@ -60,7 +60,6 @@ def process(path):
     cleaned = scrub(data)
     cleaned.pop("automatic_captions", None)
     if cleaned == data:
-        print(f"SKIP: {path.name}")
         return
 
     # A temporary output file prevents partial JSON writes; no backup is kept.
@@ -77,19 +76,19 @@ def process(path):
     finally:
         if tmp and tmp.exists():
             tmp.unlink()
-    print(f"CLEANED: {path.name}")
+    print(f"CLEANED: {path.relative_to(FOLDER)}")
 
 
 def main():
-    paths = sorted(FOLDER.glob("*.info.json"))
+    paths = sorted(FOLDER.rglob("info.json"))
     if not paths:
-        print("No *.info.json files found.")
+        print("No info.json files found.")
         return
     for path in paths:
         try:
             process(path)
         except (OSError, UnicodeError, json.JSONDecodeError) as exc:
-            print(f"ERROR: {path.name}: {exc}")
+            print(f"ERROR: {path.relative_to(FOLDER)}: {exc}")
 
 
 if __name__ == "__main__":
