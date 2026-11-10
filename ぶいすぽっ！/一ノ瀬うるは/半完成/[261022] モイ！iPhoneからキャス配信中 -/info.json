@@ -1,0 +1,79 @@
+{
+  "id": "842585614",
+  "title": "モイ！iPhoneからキャス配信中 -",
+  "description": "ぽたくを愛し愛され養われるために生まれた部屋が汚いVTuber(@Vspo77)所属。 引きこもり検定1級。mama(@atikix) #一ノ瀬の絵(活動に使わせていただくことがあります)(@uruhasub)",
+  "thumbnail": "https://imagegw03.twitcasting.tv/image3/image.twitcasting.tv/image159_1/0e/d6/3238d60e-1-s.jpg?__t=1792688828",
+  "timestamp": 1792681205,
+  "uploader_id": "uruha_ichinose",
+  "duration": 7595.0,
+  "view_count": 14556,
+  "is_live": false,
+  "formats": [
+    {
+      "format_id": "152",
+      "url": "https://dl193235.twitcasting.tv/tc.vod.v2/v1/streams/842585614.0.2.1.1792688914/hls/v0/media.m3u8",
+      "manifest_url": "https://dl193235.twitcasting.tv/tc.vod.v2/v1/streams/842585614.0.2/hls/master.m3u8?k=%2Ftc.vod%2Fv%2F842585614.0.2-1794320660-1794349460-92711b64-068a6eb0ed9bf3fb&spm=1",
+      "tbr": 152.2,
+      "ext": "mp4",
+      "protocol": "m3u8_native",
+      "has_drm": false,
+      "vcodec": "avc1.42c01e",
+      "acodec": "mp4a.40.2",
+      "dynamic_range": "SDR",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/[IP_REMOVED] Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate",
+        "Origin": "https://twitcasting.tv",
+        "Referer": "https://twitcasting.tv/"
+      },
+      "format": "152 - unknown"
+    }
+  ],
+  "http_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/[IP_REMOVED] Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-us,en;q=0.5",
+    "Sec-Fetch-Mode": "navigate",
+    "Origin": "https://twitcasting.tv",
+    "Referer": "https://twitcasting.tv/"
+  },
+  "webpage_url": "https://twitcasting.tv/uruha_ichinose/movie/842585614",
+  "webpage_url_basename": "842585614",
+  "webpage_url_domain": "twitcasting.tv",
+  "extractor": "TwitCasting",
+  "extractor_key": "TwitCasting",
+  "thumbnails": [
+    {
+      "url": "https://imagegw03.twitcasting.tv/image3/image.twitcasting.tv/image159_1/0e/d6/3238d60e-1-s.jpg?__t=1792688828",
+      "id": "0"
+    }
+  ],
+  "display_id": "842585614",
+  "fulltitle": "モイ！iPhoneからキャス配信中 -",
+  "duration_string": "2:06:35",
+  "upload_date": "20261022",
+  "epoch": 1794320662,
+  "format_id": "152",
+  "url": "https://dl193235.twitcasting.tv/tc.vod.v2/v1/streams/842585614.0.2.1.1792688914/hls/v0/media.m3u8",
+  "manifest_url": "https://dl193235.twitcasting.tv/tc.vod.v2/v1/streams/842585614.0.2/hls/master.m3u8?k=%2Ftc.vod%2Fv%2F842585614.0.2-1794320660-1794349460-92711b64-068a6eb0ed9bf3fb&spm=1",
+  "tbr": 152.2,
+  "ext": "mp4",
+  "protocol": "m3u8_native",
+  "has_drm": false,
+  "vcodec": "avc1.42c01e",
+  "acodec": "mp4a.40.2",
+  "dynamic_range": "SDR",
+  "video_ext": "mp4",
+  "audio_ext": "none",
+  "format": "152 - unknown",
+  "_type": "video",
+  "_version": {
+    "version": "2026.11.04.232659",
+    "release_git_head": "412e7f0a4b0588fe884a02b344ac66a06538475b",
+    "repository": "yt-dlp/yt-dlp-nightly-builds"
+  }
+}
