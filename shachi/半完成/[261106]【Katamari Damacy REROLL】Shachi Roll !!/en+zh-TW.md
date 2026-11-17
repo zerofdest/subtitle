@@ -1,4 +1,4 @@
-# [261106]【Katamari Damacy REROLL】Shachi Roll !!
+[【Katamari Damacy REROLL】Shachi Roll !!](https://www.youtube.com/watch?v=XBnUSPI08no)
 
 ## 開場與直播設定
 
