@@ -1,4 +1,5 @@
 """Remove IP information and automatic_captions from *.info.json files in this script's folder.
+Twitch VOD IDs (v followed by at least seven digits) are skipped.
 Files are overwritten without backup. Requires Python 3.9+."""
 
 import ipaddress
@@ -56,7 +57,13 @@ def scrub(value):
 
 
 def process(path):
-    data = json.loads(path.read_text(encoding="utf-8-sig"))
+    text = path.read_text(encoding="utf-8-sig")
+    # Inspect only the first ID field, including compact single-line JSON.
+    first_id = re.search(r'"id": "([^"\r\n]*)"', text)
+    if first_id and re.fullmatch(r'v[0-9]{7,}', first_id.group(1)):
+        return
+
+    data = json.loads(text)
     cleaned = scrub(data)
     cleaned.pop("automatic_captions", None)
     if cleaned == data:
